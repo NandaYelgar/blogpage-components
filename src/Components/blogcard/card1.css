@@ -1,0 +1,75 @@
+.blog-card-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+    min-height: 512px;
+    position: relative;
+    width: 411px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+
+  .blog-thumbnail {
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 280px;
+    width: 411px;
+  }
+  
+  .address {
+    height: 28px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: 8px;
+    min-height: 28px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  
+  .text {
+    height: 64px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: 8px;
+    min-height: 64px;
+    mix-blend-mode: normal;
+    width: 413px;
+  }
+  
+  .text-1 {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: 8px;
+    min-height: 76px;
+    mix-blend-mode: normal;
+    width: 413px;
+  }
+
+  .text-2 {
+    color: var(--red);
+    font-weight: 600;
+    height: 28px;
+    line-height: 28px;
+    min-height: 28px;
+    min-width: 70px;
+    mix-blend-mode: normal;
+    white-space: nowrap;
+  }
+  
+  .blog-card-1.blog-card {
+    margin-left: 24px;
+  }
+
+  
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  @import url("https://fonts.googleapis.com/css?family=Overpass:400,700,600,800|Inter:400|Roboto:400");
+  * {
+      box-sizing: border-box;
+  }
+  .valign-text-middle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
